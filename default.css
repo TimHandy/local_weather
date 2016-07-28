@@ -1,0 +1,20 @@
+* {
+ border: 1px red dashed;
+}
+
+body {
+ background: grey;
+}
+
+
+.center {
+  float: none;
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+}
+
+p {
+  font-size: 2em;
+}
