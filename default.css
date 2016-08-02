@@ -1,9 +1,9 @@
 * {
- border: 1px red dashed;
+ // border: 1px red dashed;
 }
 
 body {
- background: grey;
+ background: skyblue;
 }
 
 
@@ -16,5 +16,5 @@ body {
 }
 
 p {
-  font-size: 2em;
+  font-size: 1em;
 }
