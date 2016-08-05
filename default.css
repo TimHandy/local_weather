@@ -1,20 +1,19 @@
 * {
- // border: 1px red dashed;
+// border: 1px red dashed;
 }
 
 body {
  background: skyblue;
 }
 
-
-.center {
-  float: none;
-  margin-left: auto;
-  margin-right: auto;
-
-  text-align: center;
-}
-
 p {
   font-size: 1em;
+}
+
+h3:first-letter {
+	text-transform:capitalize;
+}
+
+#weather-icon img {
+	height: 100px;
 }
