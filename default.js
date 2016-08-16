@@ -12,13 +12,13 @@ function handleWeatherResponse(json) {  // take the data from the json call and 
 	//console.log("Weather Data Grabbed");
 	$("h1").text("Your Local Weather for " +weatherData.name);  // by putting this here and calling sendRequest below, on page load it displays the data straight away!
 		$("#weather-desc").text(weatherData.weather[0].description);  // pass these directly in, rather than creating variables for them first.
-		var celcius = weatherData.main.temp
+		var celcius = weatherData.main.temp;
 		var Fahrenheit = celcius * 1.8 + 32;
 		$("#tempC").text(Math.floor(celcius) + "°C");
 		$("#tempF").text(Math.floor(Fahrenheit) + "°F");
 		$("#wind-speed").text(weatherData.wind.speed + " mph");
 		var weatherIconUrl = "<img src=https://crossorigin.me/http://openweathermap.org/img/w/";
-		var weatherIconPng = ".png>"
+		var weatherIconPng = ".png>";
 		$("#weather-icon").html(weatherIconUrl + weatherData.weather[0].icon + weatherIconPng);
 }
 
