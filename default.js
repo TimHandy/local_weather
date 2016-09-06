@@ -1,3 +1,10 @@
+// Show the Local Weather. FreeCodeCamp Assignment.
+
+// TODO: User Story: I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
+// TODO: re weather api... Free account has limitation of capacity and data availability. If you do not get respond from server do not try to repeat your request immediately, but only after 10 min. Also we recommend to store your previous request data.
+// TODO: This is a good working example: http://codepen.io/l-emi/pen/OXBwxL check it out for ideas.
+
+
 var weatherAPIKey = '&APPID=a66f4e53741f129977e971853722ab80';
 
 //Example API string: http://api.openweathermap.org/data/2.5/weather?&APPID=a66f4e53741f129977e971853722ab80&lat=51.5276880&lon=-2.5410160&units=metric
@@ -67,11 +74,7 @@ $(document).ready(function() {
 
 
 
-// TODO: User Story: I can see a different icon or background image (e.g. snowy mountain, hot desert) depending on the weather.
 
-
-
- // TODO: re weather api... Free account has limitation of capacity and data availability. If you do not get respond from server do not try to repeat your request immediately, but only after 10 min. Also we recommend to store your previous request data.
 
 
 // The getJSON in getLatLon is async, so had to use a callback to wait for the data before console.logging the info. Might need this later if other functions don't return what's expected.
