@@ -4,6 +4,7 @@
 
 body {
  background: skyblue;
+ text-align: center;
 }
 
 p {
@@ -17,3 +18,12 @@ h3:first-letter {
 #weather-icon img {
 	height: 100px;
 }
+
+#tempC, #tempF {
+	display: inline;
+	vertical-align: middle;
+}
+
+/*#degrees-button {
+	display: inline-block;
+}*/
