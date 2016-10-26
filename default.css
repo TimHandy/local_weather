@@ -27,3 +27,7 @@ h3:first-letter {
 /*#degrees-button {
 	display: inline-block;
 }*/
+
+.hidden {
+    display: none;
+}
